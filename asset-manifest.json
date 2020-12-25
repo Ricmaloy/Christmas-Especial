@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Christmas-Especial/static/css/main.ea6d7520.chunk.css",
+    "main.js": "/Christmas-Especial/static/js/main.5685a60f.chunk.js",
+    "main.js.map": "/Christmas-Especial/static/js/main.5685a60f.chunk.js.map",
+    "runtime-main.js": "/Christmas-Especial/static/js/runtime-main.a3cfb8bd.js",
+    "runtime-main.js.map": "/Christmas-Especial/static/js/runtime-main.a3cfb8bd.js.map",
+    "static/js/2.0adeddd6.chunk.js": "/Christmas-Especial/static/js/2.0adeddd6.chunk.js",
+    "static/js/2.0adeddd6.chunk.js.map": "/Christmas-Especial/static/js/2.0adeddd6.chunk.js.map",
+    "index.html": "/Christmas-Especial/index.html",
+    "static/css/main.ea6d7520.chunk.css.map": "/Christmas-Especial/static/css/main.ea6d7520.chunk.css.map",
+    "static/js/2.0adeddd6.chunk.js.LICENSE.txt": "/Christmas-Especial/static/js/2.0adeddd6.chunk.js.LICENSE.txt",
+    "static/media/EvilOpeningGifts.e735733b.svg": "/Christmas-Especial/static/media/EvilOpeningGifts.e735733b.svg",
+    "static/media/GoodOpeningGifts.fe20013e.svg": "/Christmas-Especial/static/media/GoodOpeningGifts.fe20013e.svg",
+    "static/media/GrinchedRegular.bc1058ee.otf": "/Christmas-Especial/static/media/GrinchedRegular.bc1058ee.otf",
+    "static/media/HollyAndBerries.d591bb97.ttf": "/Christmas-Especial/static/media/HollyAndBerries.d591bb97.ttf",
+    "static/media/IndieFlower-Regular.9bd64a34.ttf": "/Christmas-Especial/static/media/IndieFlower-Regular.9bd64a34.ttf",
+    "static/media/Langar-Regular.764e166f.ttf": "/Christmas-Especial/static/media/Langar-Regular.764e166f.ttf",
+    "static/media/Nunito-Light.abdadce6.ttf": "/Christmas-Especial/static/media/Nunito-Light.abdadce6.ttf",
+    "static/media/Nunito-Regular.e4eb7682.ttf": "/Christmas-Especial/static/media/Nunito-Regular.e4eb7682.ttf",
+    "static/media/angel.1a21152e.svg": "/Christmas-Especial/static/media/angel.1a21152e.svg",
+    "static/media/devil.15180f17.svg": "/Christmas-Especial/static/media/devil.15180f17.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a3cfb8bd.js",
+    "static/js/2.0adeddd6.chunk.js",
+    "static/css/main.ea6d7520.chunk.css",
+    "static/js/main.5685a60f.chunk.js"
+  ]
+}
