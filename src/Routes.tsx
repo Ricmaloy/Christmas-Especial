@@ -1,24 +1,24 @@
 import React from 'react';
-import {HashRouter, Switch, Route} from 'react-router-dom';
+import {BrowserRouter, Switch, Route} from 'react-router-dom';
 
 import GoodCard from './pages/GoodCard';
 import EvilCard from './pages/EvilCard';
 import Home from './pages/Home';
 
 const Routes = () => (
-    <HashRouter >
+    <BrowserRouter >
         <Switch>
-            <Route path="/" exact>
+            <Route path={ process.env.PUBLIC_URL + "/"} exact>
                 <Home/>
             </Route>
-            <Route path="/Evil">
+            <Route path={ process.env.PUBLIC_URL + "/Evil"}>
                 <EvilCard/>
             </Route>
-            <Route path="/Good">
+            <Route path={process.env.PUBLIC_URL + "/Good"}>
                 <GoodCard/>
             </Route>
         </Switch>
-    </HashRouter>
+    </BrowserRouter>
 );
 
 export default Routes;
