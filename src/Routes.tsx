@@ -6,15 +6,15 @@ import EvilCard from './pages/EvilCard';
 import Home from './pages/Home';
 
 const Routes = () => (
-    <BrowserRouter >
+    <BrowserRouter>
         <Switch>
-            <Route path={ process.env.PUBLIC_URL + "/"} exact>
+            <Route path="/" exact>
                 <Home/>
             </Route>
-            <Route path={ process.env.PUBLIC_URL + "/Evil"}>
+            <Route path="/Evil" exact>
                 <EvilCard/>
             </Route>
-            <Route path={process.env.PUBLIC_URL + "/Good"}>
+            <Route path="/Good" exact>
                 <GoodCard/>
             </Route>
         </Switch>
