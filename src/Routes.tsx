@@ -1,24 +1,24 @@
 import React from 'react';
-import {BrowserRouter, Switch, Route} from 'react-router-dom';
+import {HashRouter, Switch, Route} from 'react-router-dom';
 
 import GoodCard from './pages/GoodCard';
 import EvilCard from './pages/EvilCard';
 import Home from './pages/Home';
 
 const Routes = () => (
-    <BrowserRouter>
+    <HashRouter >
         <Switch>
             <Route path="/" exact>
                 <Home/>
             </Route>
-            <Route path="/Evil" exact>
+            <Route path="/Evil">
                 <EvilCard/>
             </Route>
-            <Route path="/Good" exact>
+            <Route path="/Good">
                 <GoodCard/>
             </Route>
         </Switch>
-    </BrowserRouter>
+    </HashRouter>
 );
 
 export default Routes;
